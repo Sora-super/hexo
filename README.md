@@ -19,7 +19,7 @@ scp -r 本地文件路径 root@服务器ip:服务器此文件地址
 例:
 scp -r /Users/xuewangyi/hexo/person/public root@123.56.244.137:/www/admin/hexo.xuezsl.com_80/wwwroot
 
-// pwd可以获取当当前路径
+// pwd可以获取当前路径
 ```
 
 ### 更多资源
