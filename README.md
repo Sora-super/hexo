@@ -34,12 +34,15 @@ scp -r /Users/xuewangyi/hexo/person/public root@123.56.244.137:/www/admin/hexo.x
 ### 生成项目结构树
 
 ``` bash
-tree -l 2, -o out.txt --ignore "node_modules/"
+tree -l 2, -o tree.md --ignore "node_modules/"
 ```
 
+### application
+
+[本项目地址](https://github.com/settings/applications/1447277)
 
 ### 目录结构
-/Users/xuewangyi/hexo/person
+
 ├── README.md
 ├── _config.landscape.yml
 ├── _config.yml

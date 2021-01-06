@@ -3,6 +3,7 @@
 ├── _config.landscape.yml
 ├── _config.yml
 ├── db.json
+├── out.txt
 ├── package-lock.json
 ├── package.json
 ├── public
@@ -152,6 +153,6 @@
             ├── photoswipe.js
             └── photoswipe.min.js
 
-directory: 949 file: 5818 symboliclink: 518
+directory: 949 file: 5819 symboliclink: 518
 
 ignored: directory (114)
