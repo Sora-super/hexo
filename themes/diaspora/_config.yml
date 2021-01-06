@@ -97,3 +97,7 @@ favicon: /img/favicon.png
 
 # rss文件
 rss: atom.xml
+
+# 开启访问量统计
+busuanzi:
+ enable: true

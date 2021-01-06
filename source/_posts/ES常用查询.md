@@ -61,6 +61,7 @@ filename :{0 TO 3600000} OR visibleTime : {0 TO 3600000}
 NOT title:"weixin*" AND NOT href:"*\/show*"
 ```
 5. 全文检索
+
 ```
 在搜索栏直接搜索单词，会返回所有字段中包含所搜索单词的文档
 
@@ -70,6 +71,7 @@ NOT title:"weixin*" AND NOT href:"*\/show*"
 ```
 
 6. 字段是否存在
+
 ```
 exists:http：  返回结果中需要有http字段
 missing:http： 不能含有http字段
