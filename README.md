@@ -42,7 +42,7 @@ tree -l 2, -o tree.md --ignore "node_modules/"
 [本项目地址](https://github.com/settings/applications/1447277)
 
 ### 目录结构
-
+```
 ├── README.md
 ├── _config.landscape.yml
 ├── _config.yml
@@ -195,4 +195,5 @@ tree -l 2, -o tree.md --ignore "node_modules/"
             ├── photoswipe.css
             ├── photoswipe.js
             └── photoswipe.min.js
+```
 
