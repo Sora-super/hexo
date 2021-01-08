@@ -42,7 +42,7 @@ tags:
 
 - co
 
-> 可以看到脚手架引入的koa版本号是1.X，所以用到了co模块，co模块是用于Generator函数的自动执行的一个小工具，我们接下来要对koa进行一个升级，使用async/await替换掉Generator，所以将这个文件删掉
+> 可以看到脚手架引入的koa版本号是1.X，所以用到了co模块，co模块是用于Generator函数的自动执行的一个小工具
 
 - debug
 
@@ -50,19 +50,19 @@ tags:
 
 - ejs
 
-> ejs模板，koa+ejs标准MVC,如果只是想提供接口，删掉它
+> ejs模板，koa+ejs标准MVC
 
 - jade
 
-- 也是个模板，直接删
+> 也是个模板
 
 - koa
 
-> 重头戏，直接修改为^2.13.0
+> 关键
 
 - koa-bodyparser
 
-> 中间件，可以将post请求的参数转为json格式返回,比较有用，版本号升级为4.3
+> 中间件，可以将post请求的参数转为json格式返回,比较有用
 
 ``` javascript
 const Koa = require('koa');
@@ -89,7 +89,7 @@ app.listen(3000,()=>{
 ```
 - koa-json
 
-> 中间件,比较有用，升级为2.x
+> 中间件,比较有用
 
 ``` javascript
 var json = require('koa-json');
@@ -105,7 +105,7 @@ app.use((ctx) => {
 ```
 - koa-logger
 
-- 日志中间件,升级为3.2.1
+- 日志中间件
 
 ```javascript
 const logger = require('koa-logger')
@@ -116,7 +116,7 @@ app.use(logger())
 ```
 - koa-onerror
 
-> 基于koa的错误处理程序,升级为4.x
+> 基于koa的错误处理程序
 
 ```javascript
 const fs = require('fs');
@@ -135,11 +135,11 @@ app.use(ctx => {
 
 - koa-router
 
-> koa的路由，升级10.x
+> koa的路由
 
 - koa-static
 
-> koa静态服务中间件，升级为5.0.0
+> koa静态服务中间件
 
 ```javascript
 const serve = require('koa-static');
@@ -162,37 +162,19 @@ console.log('listening on port 3000');
 
 - koa-views
 
-> 模块渲染中间件，直接删掉
+> 模块渲染中间件
 
 
-全部删完以后，package.json就成了以下这个样子
-``` json
-{
-  "name": "gugod",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "start": "node bin/www",
-    "dev": "./node_modules/.bin/nodemon bin/www",
-    "prd": "pm2 start bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "axios": "^0.21.1",
-    "debug": "^2.6.3",
-    "koa": "^2.13.0",
-    "koa-bodyparser": "^4.3.0",
-    "koa-json": "^2.0.2",
-    "koa-logger": "^1.3.1",
-    "koa-onerror": "^1.1.0",
-    "koa-router": "^10.0.0",
-    "koa-static": "^5.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.8.1"
-  }
-}
-```
+### 当然，以上是koa1.x的内容，我们其实一般用的都是koa2.x
 
 
-这时候，直接执行yarn安装依赖就可以了
+1. 安装
+
+> cpm install -g koa-generator
+
+2. 创建项目
+
+> koa2 HelloKoa2
+
+这时候就可以看到，co模块没有了，因为koa2使用的是async/await终极异步解决方案
+
