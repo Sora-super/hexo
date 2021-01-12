@@ -118,4 +118,20 @@ local_search:
     #是否启用
     enable: true
 
+## Live2D看板娘
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    #模板目录，在node_modules里
+    use: live2d-widget-model-hibiki
+  display:
+    position: right
+    width: 200
+    height: 450
+  mobile:
+    # 在手机端显示
+    show: false
+  rect:
+    opacity:0.7
 
