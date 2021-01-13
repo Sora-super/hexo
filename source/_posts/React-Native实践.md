@@ -75,7 +75,7 @@ brew install cocoapods
 npx react-native init AwesomeProject
 ```
 
-安装依赖
+安装依赖，运行项目
 
 ```
 yarn ios
