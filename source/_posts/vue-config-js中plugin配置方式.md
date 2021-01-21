@@ -78,14 +78,14 @@ module.exports = {
     if (process.env.NODE_ENV === "production") {
         config.optimization.minimizer[0].options.terserOptions.compress.drop_console = true
     }
-    config.optimization.minimizer = [
+    config.optimization.minimizer.push(
       new UselessFile({
         root: './src', // 项目目录
         out: './fileList.json', // 输出文件列表
         clean: false,// 删除文件,
         exclude: path // 排除文件列表, 格式为文件路径数组
       })
-    ]
+    )
 
     return {resolve: {
       alias: {
