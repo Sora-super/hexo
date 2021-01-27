@@ -1,7 +1,9 @@
 ---
 title: sequelize简单操作
 date: 2021-01-05 17:15:30
+comments: true
 tags:
+	- 常见问题
 ---
 
 使用sequelize，进行对数据库的简单操作，[点击查看中文文档](https://www.sequelize.com.cn/)

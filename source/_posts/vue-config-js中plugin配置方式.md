@@ -1,7 +1,9 @@
 ---
 title: vue.config.js中plugin配置方式
 date: 2021-01-21 10:47:56
+comments: true
 tags:
+	- 常见问题
 ---
 
 

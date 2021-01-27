@@ -1,7 +1,9 @@
 ---
 title: React Native实践
 date: 2021-01-12 15:59:15
+comments: true
 tags:
+	- 基础搭建
 ---
 
 背景：
