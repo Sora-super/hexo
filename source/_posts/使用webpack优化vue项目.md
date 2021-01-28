@@ -18,6 +18,7 @@ tags:
 ```
 npm install compression-webpack-plugin --save-dev
 ```
+<!-- more -->
 
 vue.config.js
 

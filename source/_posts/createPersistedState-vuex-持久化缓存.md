@@ -19,6 +19,7 @@ tags:
 ``` javascript
 npm install vuex-persistedstate
 ```
+<!-- more -->
 
 - 使用
 

@@ -26,6 +26,7 @@ module.exports = {
   }
 }
 ```
+<!-- more -->
 
 2. 函数式配置
 

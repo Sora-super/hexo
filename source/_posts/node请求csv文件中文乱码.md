@@ -38,6 +38,7 @@ http.createServer((req,res)=>{
 
 console.log('server is running in 8999')
 ```
+<!-- more -->
 
 关键点就在于 iconv 插件了，有兴趣的可以去[npm官网看看](https://www.npmjs.com/package/iconv-lite)
 

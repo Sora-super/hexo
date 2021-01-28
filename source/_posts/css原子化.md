@@ -17,6 +17,7 @@ tags:
 ...
 <div class="fr"></div>
 <div class="fl"></div>
+
 ...
 
 <style>
@@ -28,6 +29,7 @@ tags:
     }
 </style>
 ```
+<!-- more -->
 
 很明显，所有的css类，都只有唯一的css规则，这就是css原子化
 

@@ -16,6 +16,7 @@ tags:
 
 
 分别理解一下这三个软件
+<!-- more -->
 
 ##### Elasticsearch
 
